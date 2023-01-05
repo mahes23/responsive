@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    background-color: antiquewhite;
+}
+header{
+    position:sticky;
+    top: 0;
+    z-index: 1;
+    background-color:white;
+    width: 100%;
+    height: 50px;
+   
+}
+
+
+.nav img{
+    width: 40px;
+    height: 30px;
+    margin-top: 4px;
+    margin-left:3%;
+}
+.nav h1{
+    color:black;
+    width: 300px;
+    text-transform: capitalize;
+    margin-top: 0.5%;
+    
+}
+.nav-links li{
+    color:black;
+    text-decoration: none;
+    list-style: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav{
+   display: flex;
+}
+.nav li a{
+    text-decoration: none;
+}
+
+.nav-links ul{
+   margin-left: 100px;
+   display: flex;
+   margin-top: 1%;
+}
+.nav-links ul li a{
+    margin-left: 10%;
+    text-transform:capitalize;
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+}
+.nav-links ul li a:hover{
+    color:  rgb(214, 102, 22);
+}
+
+.nav-links button{
+   
+    margin-left: 40%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    background-color:  rgb(214, 102, 22);
+    text-transform: capitalize;
+    border: none;
+    color: white;
+}
+.nav-links button:hover{
+    background-color: white;
+    color: black;
+}
+
+.part1 img{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+}
+.part1 h1{
+  color: aliceblue;
+  position: absolute;
+  left: 43%;
+  top: 20%;
+  text-transform: capitalize;
+  font-size: 70px;
+  word-spacing: 0.3px;
+  font-style: oblique;
+}
+.part2{
+    padding-top: 25%;
+}
+.part2 h2{
+    margin-left: 35%;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.part2 p{
+     margin-left: 28%;
+     margin-top: 4%;
+     text-align: center;
+     width: 600px;
+     text-transform: capitalize;
+     word-spacing: 3px;
+     letter-spacing: 1px;
+}
+.part3{
+    margin-top: 5%;
+}
+.part3 img{
+    width: 80%;
+    position: absolute;
+    margin-left: 10%;
+}
+.post{
+position: absolute;
+padding-left: 15%;
+padding-top: 10%;
+color: white;
+}
+.post h1{
+    font-size: 40px;
+    width: 900px;
+}
+span{
+    margin-left: 10%;
+   
+    
+}
+.post p{
+    margin-top: 3%;
+   width: 500px;
+   text-transform: capitalize;
+   word-spacing: 2px;
+   letter-spacing: 1px;
+   text-align: start;
+}
+.post button{
+    margin-top: 3%;
+    width: 190px;
+    height: 30px;
+    text-transform: capitalize;
+    border-radius: 20px;
+    border: none;
+    background-color: chocolate;
+}
+.post button:hover{
+    background-color: white;
+}
+.part4{
+    padding-top: 34%;
+   width: 100%;
+   
+}
+.part4 img{
+    width: 80%;
+    position: absolute;
+    margin-left: 10%;
+}
+.post1{
+   position: absolute;
+    padding-left: 45%;
+    padding-top: 10%;
+    color: black;
+    }
+    .post1 h1{
+        font-size: 30px;
+        width: 900px;
+    }
+    span{
+        margin-left: 5%;
+        width: 100PX;
+       
+    }
+    .post1 p{
+        margin-top: 3%;
+       width: 500px;
+       text-transform: capitalize;
+       word-spacing: 2px;
+       letter-spacing: 1px;
+       text-align: start;
+    }
+    .post1 button{
+        margin-top: 3%;
+        width: 190px;
+        height: 30px;
+        text-transform: capitalize;
+        border-radius: 20px;
+        border: none;
+        background-color: chocolate;
+    }
+    .post1 button:hover{
+        background-color: white;
+    }
+    .part5{
+        padding-top: 34%;
+    }
+    .part5 img{
+        width: 80%;
+        position: absolute;
+        margin-left: 10%;
+    }
+    .post2{
+    position: absolute;
+    padding-left: 15%;
+    padding-top: 10%;
+    color: white;
+    }
+    .post2 h1{
+        font-size: 40px;
+        width: 900px;
+    }
+    span{
+        margin-left: 10%;
+       
+        
+    }
+    .post2 p{
+        margin-top: 3%;
+       width: 500px;
+       text-transform: capitalize;
+       word-spacing: 2px;
+       letter-spacing: 1px;
+       text-align: start;
+    }
+    .post2 button{
+        margin-top: 3%;
+        width: 190px;
+        height: 30px;
+        text-transform: capitalize;
+        border-radius: 20px;
+        border: none;
+        background-color: chocolate;
+    }
+    .post2 button:hover{
+        background-color: white;
+    }
+    .part6{
+        padding-top: 34%;
+       width: 100%;
+       
+    }
+    .part6 img{
+        width: 80%;
+        position: absolute;
+        margin-left: 10%;
+    }
+    .post3{
+       position: absolute;
+        padding-left: 45%;
+        padding-top: 10%;
+        color: black;
+        }
+        .post3 h1{
+            font-size: 30px;
+            width: 900px;
+        }
+        span{
+            margin-left: 5%;
+            width: 100PX;
+           
+        }
+        .post3 p{
+            margin-top: 3%;
+           width: 500px;
+           text-transform: capitalize;
+           word-spacing: 2px;
+           letter-spacing: 1px;
+           text-align: start;
+        }
+        .post3 button{
+            margin-top: 3%;
+            width: 190px;
+            height: 30px;
+            text-transform: capitalize;
+            border-radius: 20px;
+            border: none;
+            background-color: chocolate;
+        }
+        .post3button:hover{
+            background-color: white;
+        }
+        .service2{
+            margin-top: 35%;
+            margin-left: 10%;
+        }
+        .service2 p{
+         margin-left: 23%;
+     margin-top: 4%;
+     text-align: center;
+     width: 600px;
+     text-transform: capitalize;
+     word-spacing: 3px;
+     letter-spacing: 1px;
+
+
+        }
+        .service2 h1{
+        margin-left: 30%;
+           
+            text-transform: uppercase;
+            word-spacing: 5px;
+            letter-spacing: 5px;
+            font-size: 40px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif
+        }
+        .box{
+            display: flex;
+            margin-left: 3%;
+        }
+        .one{
+            width: 350px;
+            height: 400px;
+           margin-top: 10%;
+           
+          
+           }
+           .one:hover{
+            background-color:rgb(218, 152, 152);
+            transition: 4s ease;
+            
+            
+           }
+        .one img{
+            margin-top: 3%;
+            width: 150px;
+            height: 150px;
+            margin-left: 6%;
+        }
+        .one h1{
+             margin-top: 60%;
+            margin-left: 10%;
+             width: 270px;
+             text-align: center;
+        }
+        .one p{
+            margin-top: 10%;
+            margin-left: 35%;
+            width: 200px;
+            font-size: 40px;
+        }
+        .one button{
+            margin-top: 10%;
+            margin-left: 35%;
+            width: 100px;
+            height: 50px;
+            border-radius: 20px;
+            border: none;
+            color: white;
+        }
+        .one:hover button{
+            background-color:chocolate;
+            text-transform: capitalize;
+        }
+        footer{
+            background-color: aliceblue;
+        }
+        .foot1 h1{
+            margin-left: 40%;
+            text-transform: uppercase;
+        }
+        .foot1 p{
+            margin-left: 30%;
+            margin-top: 2%;
+            text-align: center;
+            width: 500px;
+        }
+        .foot2{
+            display: flex;
+            margin-left: 26%;
+            text-transform: capitalize;
+        }
+        .foot2 li{
+            list-style: none;
+            margin-left: 5%;
+            margin-top: 3%;
+            font-size: 20px;
+        }
+        .foot2 li a{
+            text-decoration: none;
+        }
+        .foot2 li:hover{
+            color: chocolate;
+        }
+        .foot3{
+            display: flex;
+            margin-left: 35%;
+            margin-top: 2%;
+        }
+        .foot3 li{
+            list-style: none;
+            margin-left: 5%;
+        }
